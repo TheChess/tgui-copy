@@ -582,10 +582,10 @@ input:checked + .slider:before {
 @media (max-width: 1100px) {
 	.sections{
 		display: block;
-		width: 62%;
+		width: 100%;
 	}
 	aside{
-		width: 38%;
+		width: 49%;
 	}
 	.dialog-wrap{
 		text-overflow: ellipsis;
