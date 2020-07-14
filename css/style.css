@@ -115,6 +115,11 @@ aside{
 .active .dialog-description .dialog-msg{
 	color: white;
 }
+.dialog-description{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow-x: hidden;
+}
 .dialog-wrap:hover{
 	background-color: #202b36;
 }
@@ -585,11 +590,10 @@ input:checked + .slider:before {
 		width: 100%;
 	}
 	aside{
-		width: 49%;
+		width: 40%;
 	}
-	.dialog-wrap{
-		text-overflow: ellipsis;
-		white-space: nowrap;
-		overflow-x: hidden;
+
+	.dialog-meta{
+		padding-left: 4px;
 	}
 }
