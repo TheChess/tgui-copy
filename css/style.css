@@ -73,9 +73,6 @@ aside{
 	border-right: 1px solid #0a121b;
 	height: calc(100% - 1px);
 }
-.dialogs-wrapper::after{
-	display: none;
-}
 .dialog-wrap{
 	display: -webkit-flex;
 	display: -moz-flex;
