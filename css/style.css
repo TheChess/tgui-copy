@@ -117,6 +117,7 @@ aside{
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow-x: hidden;
+	margin-left: 8px;
 }
 .dialog-wrap:hover{
 	background-color: #202b36;
@@ -129,6 +130,7 @@ aside{
 	margin-top: 10px;
 	float: right;
 	color: white;
+	padding-left: 6px;
 }
 .dialog-meta p{
 	text-align: right;
@@ -592,9 +594,5 @@ input:checked + .slider:before {
 	}
 	aside{
 		width: 40%;
-	}
-
-	.dialog-meta{
-		padding-left: 4px;
 	}
 }
